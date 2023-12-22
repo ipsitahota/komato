@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_kitchen/home/food_page_body.dart';
 import 'package:flutter_kitchen/utils/colors.dart';
 import 'package:flutter_kitchen/widgets/big_text.dart';
 import 'package:flutter_kitchen/widgets/small_text.dart';
@@ -52,7 +53,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
         ),
       ),
     ), 
-    
+          FoodPageBody() ,    
         ],
       ));
     }
